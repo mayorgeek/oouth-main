@@ -1,0 +1,155 @@
+.footer{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background: #0096ff;
+}
+
+.footer__logo h5{
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.footer__logo p{
+    font-size: .9rem;
+    line-height: 28px;
+    color: #fff;
+}
+
+
+.delivery__time-item{
+    background: transparent !important;
+}
+
+.delivery__time-item span{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.delivery__time-item p{
+    color: #fff;
+}
+
+.footer-title{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.footer-title p{
+    color: white;
+}
+
+.footer-title h4{
+    color: #212245;
+    padding-bottom: .3rem;
+}
+
+.wrap{
+    width: 70%;
+}
+
+.brands{
+    padding-top: .5rem;
+}
+
+.brands span{
+        font-weight: 600;
+        font-size: 1.3rem;
+        color: #fff;
+        /* padding: 1rem; */
+}
+
+.newletter{
+    padding: 7px 15px;
+    border: 1px solid #212245;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.newletter input{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.newletter input:focus{
+    outline: none;
+}
+
+.newletter span{
+    background: #212245;
+    color: #fff;
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+
+.newletter input::placeholder{
+    color: #212245;
+}
+
+.social__links span{
+    padding: 5px;
+    /* background: #df2020; */
+    color: #212245;
+    /* border-radius: 50%; */
+}
+
+.copyright{
+    font-size: .8rem;
+    color: #df2020;
+}
+
+.footer-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1.8rem;
+}
+
+
+@media only screen and (max-width: 576px){
+    .social__links{
+        justify-content: center;
+    }
+    
+    .social__links p{
+        font-size: .8rem;
+    }
+
+    .social__links span{
+        padding: 4px;
+    }
+
+    .social__links span a{
+        font-size: .7rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+     .footer__title{
+         font-size: .8rem;
+     } 
+
+     .delivery__time-item p{
+        font-size: .7rem;
+        margin-bottom: 0;
+     }
+
+    }
+    
+    @media only screen and (max-width: 992px){
+        
+        .newletter input{
+           font-size: .7rem;
+           padding:  7px;
+        }
+    
+        .newletter span{
+            padding: 4px 20px;
+            font-size: .7rem;
+        }
+    } 
